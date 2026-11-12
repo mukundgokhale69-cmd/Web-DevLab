@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #000000;
+    color: aliceblue;
+}
+
+header {
+    background-color: #373738;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #f9f7f4;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card1 {
+    background-color: rgb(70, 2, 2);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #000;
+}
+.card2 {
+    background-color: rgb(15, 0, 52);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #000;
+}
+.card3 {
+    background-color: rgb(61, 2, 35);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #000;
+}
+.card4 {
+    background-color:rgb(70, 2, 2);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #000;
+}
+.card5 {
+    background-color: rgb(15, 0, 52);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #000;
+}
+.card6 {
+    background-color: rgb(61, 2, 35);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #000;
+}
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}

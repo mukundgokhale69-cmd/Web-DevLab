@@ -1,0 +1,52 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        header,
+        footer {
+            background-color: lightgrey;
+            text-align: center;
+            padding: 25px;
+            border: 2px solid black;
+        }
+
+        main {
+            text-align: center;
+            padding: 30px;
+            border: 2px solid black;
+        }
+
+        .fraction1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .fraction2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .news {
+            border: 2px solid black;
+            padding: 35px;
+            margin: 5px;
+            min-height: 160px;
+        }
+
+        @media(max-width: 600px) {
+            .container {
+                width: 95%;
+            }
+
+            .fraction1,
+            .fraction2 {
+                grid-template-columns: 1fr;
+            }
+        }
